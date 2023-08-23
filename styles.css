@@ -1,0 +1,76 @@
+h1,h2,h3,h4,h5,h6 {font-family: "Bodoni Moda", sans-serif}
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #fefcf6;  /* #fffaf4 */
+}
+p, button {
+    font-size: 14pt;
+    line-height: 1.6;
+}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./assets/img/portrait.jpg');
+  min-height: 100%;
+}
+
+.page-title {
+    font-weight: bold;
+}
+
+.header-bg {
+    background-color: #edffe3;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #eeeeee9a;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+/* small */
+@media (max-width:600px) {
+    .page-title {
+        font-size:50px!important;
+    }
+    .page-subtitle {
+        font-size:20px!important;
+    }
+}
+
+/* large */
+@media (min-width:993px) {
+    .page-title {
+        font-size:64px!important;
+    }
+    .page-subtitle {
+        font-size:24px!important;
+    }
+}
+
+/* medium */
+@media (max-width:992px) and (min-width:601px) {
+    .page-title {
+        font-size:64px!important;
+    }
+    .page-subtitle {
+        font-size:24px!important;
+    }
+}
