@@ -9,7 +9,7 @@ p, button {
 }
 .w3-row-padding img {margin-bottom: 12px}
 .bgimg {
-  background-position: center;
+  background-position: 0px -24px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('./assets/img/portrait.jpg');
